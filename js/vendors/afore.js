@@ -30,7 +30,7 @@ function paintAccout (status,balance,accountNumber){
                 <p> Saldo afore: $${balance} MXN<p>
               </div>
               <div>
-                <a href="./puntos.html" class="btn btn-dark">Añadir mis puntos Premia</a>
+                <a href="./puntos.html" class="btn btn-primary btn-lg btn-block">Añadir mis puntos Premia</a>
               </div>
             </div>
           </div>`
