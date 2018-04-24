@@ -1,6 +1,6 @@
 $(document).ready(function() {
     setTimeout(function() {
-        $("#screen1").fadeOut(2000);
+        $("#screen1").hide();
     },4000);
 
     setTimeout(function() {
