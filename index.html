@@ -10,37 +10,60 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container-fluid text-center" id="primero">
+       <!-- comienza pantalla inicial -->
+    <div class="container-fluid text-center" id="screen1">
+        <div class="row mt-3">    
+              <div class="col-12" >
+                  <img class="img-fluid" src="assets/images/citi.png" alt="logo" id="img">
+              </div>
+              <div class="row mt-3 ">
+                <div class="col-12">
+                  <h4>¡Compra, transfiere y ahorra!</h4>
+                </div>
+                <p>Descubre tu nueva AppFore con ella podrás saber el saldo de tu tarjeta Puntos Premia, transferir los puntos a tu afore y consultar el saldo acumulado</p>
+              </div>
+          <div class="row mt-5 pl-logo primero">
+            <img src="assets/images/banking.png" alt="phone" class="img-fluid logo">
+          </div>
+         </div>
+        </div>
+          <!-- comienza pantalla inicial -->
+        <div class="container-fluid text-center screen2 primero" >
           <div class="row">
             <div class="col-12" >
               <img class="img-fluid" src="assets/images/citi.png" alt="logo" id="img">
             
               <form action="http://views/cuatro.html">
                 <div class="col-12">
-                  <input type="text" name="" id="user" class="mg-top" placeholder="Ingresa tu Usuario "/>
+                  <input type="text" name="" id="user" class="rounded mg-top" placeholder="Ingresa tu Usuario "/>
                 </div>
                 <div class="col-12">
-                  <input type="password" name="" id="pass" class="mg-top" placeholder="Ingresa tu Contraseña"/>
+                  <input type="password" name="" id="pass" class="rounded mg-top" placeholder="Ingresa tu Contraseña"/>
                 </div>
                 <div class="col-12">
-                  <input type="submit" class="btn btn-dark btn-lg mg-top" id="btn" value="Entrar" onclick="location.href='./views/edoCtaAfore.html'"/>  
+                  <input type="submit" class="btn btn-primary btn-lg btn-block  mg-top" id="btn" value="Entrar" onclick="location.href='./views/edoCtaAfore.html'"/>  
                 </div>
               </form>
             </div>
           </div>
-          <footer class="row mg-top">
-            <div class="col-12 ">        
-              <p>Valkyrias 2018.</p>
+          <footer class="page-footer font-small blue pt-5 mt-5">
+            <!--Copyright-->
+            <div class="footer-copyright py-3 text-center">
+                © 2018 Copyright: Valkirias
             </div>
-          </footer>   
+            <!--/.Copyright-->
+          </footer>
+        <!--/.Footer-->
         </div>
-
+       
        
         
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/vendors/splash.js"></script>   
         <script type="text/javascript" src="js/data.js"></script> 
-        <script src="js/app.js"></script>    
+         <script type="text/javascript" src="js/app.js"></script>     
+          
     </body>
 </html>

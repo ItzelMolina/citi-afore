@@ -1,11 +1,11 @@
 * {
-    background-color:#1481C4;
+    background-color:#113B65;
     color: white;
 }
 
 /*pag 1*/
-#primero {
-    margin:100px 0;
+.primero {
+    margin:50px 0;
 }
 
 
@@ -35,3 +35,18 @@
     width: 100px;
     margin: 5px;
 }
+[class*="screen"]{
+    display: none;
+  }
+  
+  input{
+      background: white;
+      border-radius: 5px;
+        
+  }
+
+  .pl-logo {
+    padding-left: 80px;
+    height: 250px;
+    width: 250px;
+  }
