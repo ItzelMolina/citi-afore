@@ -1,0 +1,31 @@
+
+
+/*saldo*/
+* {
+    background-color:#1481C4;
+    color: white;
+}
+
+
+.simulacion {
+    background-color: #08A6DB;
+    /* margin: 50px 0; */
+    
+}
+
+.money {
+    width: 100px;
+}
+
+.negro {
+    margin: 20px 0px;
+}
+
+.mg-top{
+    margin-top: 30px;
+}
+
+#cit {
+    width: 100px;
+    margin: 5px;
+}
