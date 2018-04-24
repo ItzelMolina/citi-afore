@@ -23,16 +23,17 @@ function paintAccout (status,balance,accountNumber){
     const movieContainer = document.getElementById('afore_Container');
 
     let templete = `<div class="col s12 m4">
-          <div>
             <div>
+              <div>
                 <p> Numero de cuenta ${accountNumber}<p>
-              <p> El estatus de tu cuenta: ${status}<p>
-              <p> Saldo afore: $${balance} MXN<p>
-             
-              <a href="./puntos.html">Añadir mis puntos Premia</a>
+                <p> El estatus de tu cuenta: ${status}<p>
+                <p> Saldo afore: $${balance} MXN<p>
+              </div>
+              <div>
+                <a href="./puntos.html" class="btn btn-dark">Añadir mis puntos Premia</a>
+              </div>
             </div>
-            </div>
-        </div>`
+          </div>`
         movieContainer.innerHTML += templete;
   }
 
